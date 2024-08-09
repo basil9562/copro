@@ -25,7 +25,7 @@ module tt_um_half (
   // List all unused inputs to prevent warnings
   wire _unused = &{ena, clk, rst_n};
    
-    half_adder_d half_adder_d (
+  half_adder_d half_adder_d (
         .a(ui_in[0]),
         .b(ui_in[1]),
         .sum(uo_out[0]),
